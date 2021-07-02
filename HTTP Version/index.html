@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example Page with AJAX</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Load Colors with AJAX from Server - Generic HTTP Version</h1>
+        <p>By Najeem Kanishka</p>
+        <button type="button" onclick="downloadColors()">Load Colors using XMLHTTPRequest</button>
+        <h1>Iterate Through the Colors</h1>
+        <button id="next-color" type="button" onclick="colorGenerator.next()" disabled>Display Next Color</button>
+        <br><br>
+        <div id="color-disp">
+            <table>
+                <tr>
+                    <th id="color-name"></th>
+                </tr>
+                <tr>
+                    <td id="color-category"></td>
+                </tr>
+                <tr>
+                    <td id="color-type"></td>
+                </tr>
+                <tr>
+                    <td id="color-rgb"></td>
+                </tr>
+                <tr>
+                    <td id="color-hex"></td>
+                </tr>
+                <tr>
+                    <td id="color-demo"></td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

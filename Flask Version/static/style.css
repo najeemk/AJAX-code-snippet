@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+
+#color-demo {
+    height: 300px;
+    width: 300px;
+}
+
+#color-disp {
+    display: none;
+}
